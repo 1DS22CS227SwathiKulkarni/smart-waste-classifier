@@ -4,12 +4,6 @@ This project is a **real-time waste classification system** using a webcam feed,
 
 ---
 
-## 📸 Demo
-
-> ⚠️ *Add a demo GIF or image here showing how the system classifies and displays the bins.*
-
----
-
 ## 🚀 Features
 
 - 🔍 Real-time classification of waste from webcam input  
