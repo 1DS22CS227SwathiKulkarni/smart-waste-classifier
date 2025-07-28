@@ -158,6 +158,6 @@ GitHub: [@1DS22CS227SwathiKulkarni](https://github.com/1DS22CS227SwathiKulkarni)
 
 ---
 
-## 📬 Feedback
+## Feedback
 
 Feel free to open an issue or contribute via pull requests if you want to improve the accuracy, extend the features, or integrate new components!
