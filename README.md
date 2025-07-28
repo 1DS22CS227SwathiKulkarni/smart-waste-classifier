@@ -1,20 +1,20 @@
-# 🧠 Smart Waste Classifier using Keras, OpenCV & cvzone
+# Smart Waste Classifier using Keras, OpenCV & cvzone
 
 This project is a **real-time waste classification system** using a webcam feed, powered by a trained **Keras model (`keras_model.h5`)**, **OpenCV**, and the **cvzone** overlay library. It helps automate waste sorting by identifying objects and visually guiding users to dispose of them in the correct bin — such as food, hazardous, recyclable, or residual.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔍 Real-time classification of waste from webcam input  
-- 🧠 Uses a custom-trained Keras `.h5` model (from Teachable Machine or similar)  
-- 🗑️ Automatically matches waste item to the correct bin  
-- 🎯 Visual overlays of item, arrow, and bin on a background UI  
-- 🧰 Modular and easy to extend (add more classes, change models)  
+- Real-time classification of waste from webcam input  
+- Uses a custom-trained Keras `.h5` model (from Teachable Machine or similar)  
+- Automatically matches waste item to the correct bin  
+- Visual overlays of item, arrow, and bin on a background UI  
+- Modular and easy to extend (add more classes, change models)  
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 smart-waste-classifier/
@@ -33,7 +33,7 @@ smart-waste-classifier/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Webcam captures a frame using OpenCV.  
 2. The image is passed into the pre-trained Keras model (`keras_model.h5`).  
@@ -46,7 +46,7 @@ smart-waste-classifier/
 
 ---
 
-## 🗃️ Waste-to-Bin Mapping
+## Waste-to-Bin Mapping
 
 The class prediction returned by the model is mapped to a bin using the following dictionary in `main.py`:
 
@@ -115,7 +115,7 @@ numpy
 
 ---
 
-## ▶️ Run the App
+## Run the App
 
 Ensure your webcam is working, then:
 
@@ -127,7 +127,7 @@ The webcam feed will display with the classification output and corresponding vi
 
 ---
 
-## 🎓 Train Your Own Model
+## Train Your Own Model
 
 This project uses a `.h5` model trained via [Teachable Machine by Google](https://teachablemachine.withgoogle.com/) or any custom-trained Keras image classifier.
 
@@ -139,7 +139,7 @@ This project uses a `.h5` model trained via [Teachable Machine by Google](https:
 
 ---
 
-## 💡 Extending the Project
+## Extending the Project
 
 You can add more functionality like:
 - Sound alerts for incorrect disposal  
@@ -150,7 +150,7 @@ You can add more functionality like:
 
 ---
 
-## 🙋‍♀️ Author
+## Author
 
 **Swathi Kulkarni**  
 B.E Computer Science  
